@@ -6,12 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "start": "vue-cli-service serve --open"
   },
   "dependencies": {
     "core-js": "^3.5.0",
     "express": "^4.17.1",
-    "mdbvue": "6.1.1",
+    "mdbvue": "6.2.0",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.0.0",
