@@ -1,8 +1,11 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+.home.text-center
+  img(alt='Room With a Vue' src='../assets/alchemy-sulphuric.svg' width="125px")
+  h1
+    i.fas.fa-chess.fa-3x
+  h1 Addio Mondo Crudele 
+  h2 Muddy Waters, Muddy Boots
+  mdb-btn(color='primary') Print Me
 </template>
 
 <script>
