@@ -34,33 +34,17 @@
 
 						.card-body
 
-							h5.card-title
-								a Engenho Novo Número Nove
+							h5.card-title.
+								Engenho Novo Número Nove
 
 							p.card-text Μνεσαρcηθμ cοτιδιεqθε αδ μελ. Μεα νατθμ ινvιδθντ ατ. Ετ vιμ μελιθσ ελοqθεντιαμ. Τολλιτ σεντεντιαε ηισ νε, qθι ρεqθε διcαμ ταμqθαμ ιν, αφφερτ δισπθτανδο εθμ cθ.
 
-							a.btn.btn-grey(href='#') 
-							
-								i.material-icons.mr-2 rowing
-								| Choose
+							.text-center
 
-				mdb-col.m-2(col="sm")
-
-					.card.text-left
-						img.card-img-top(src='../assets/titannic.jpg' alt='Great Ship Down')
-
-						.card-body
-
-							h.card-title
-								a Engenho Novo Número Nove
-
-							p.card-text Μνεσαρcηθμ cοτιδιεqθε αδ μελ. Μεα νατθμ ινvιδθντ ατ. Ετ vιμ μελιθσ ελοqθεντιαμ. Τολλιτ σεντεντιαε ηισ νε, qθι ρεqθε διcαμ ταμqθαμ ιν, αφφερτ δισπθτανδο εθμ cθ.
-
-							a.btn.btn-grey(href='#') 
-							
-								i.material-icons.mr-2 rowing
-								| Choose
-
+								a.btn.btn-grey(href='#') 
+								
+									i.material-icons.mr-2 rowing
+									| Row Harder
 
 				mdb-col.m-2(col="sm")
 
@@ -70,15 +54,35 @@
 						.card-body
 
 							h5.card-title
+								| Engenho Novo Número Nove
+
+							p.card-text Μνεσαρcηθμ cοτιδιεqθε αδ μελ. Μεα νατθμ ινvιδθντ ατ. Ετ vιμ μελιθσ ελοqθεντιαμ. Τολλιτ σεντεντιαε ηισ νε, qθι ρεqθε διcαμ ταμqθαμ ιν, αφφερτ δισπθτανδο εθμ cθ.
+
+							.text-center
+
+								a.btn.btn-grey(href='#') 
+								
+									i.material-icons.mr-2 rowing
+									| Row Harder
+
+
+				mdb-col.m-2(col="sm")
+
+					.card.text-left
+						img.card-img-top(src='../assets/titannic.jpg' alt='Great Ship Down')
+
+						.card-body
+
+							h5.card-title
 								a Engenho Novo Número Nove
 
 							p.card-text Μνεσαρcηθμ cοτιδιεqθε αδ μελ. Μεα νατθμ ινvιδθντ ατ. Ετ vιμ μελιθσ ελοqθεντιαμ. Τολλιτ σεντεντιαε ηισ νε, qθι ρεqθε διcαμ ταμqθαμ ιν, αφφερτ δισπθτανδο εθμ cθ.
 
-							a.btn.btn-grey(href='#') 
-							
-								i.material-icons.mr-2 rowing
-								| Choose
-
+							.text-center
+								a.btn.btn-grey(href='#') 
+								
+									i.material-icons.mr-2 rowing
+									| Row Harder
 
 </template>
 
