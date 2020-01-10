@@ -1,11 +1,85 @@
 <template lang="pug">
 .home.text-center
-  img(alt='Room With a Vue' src='../assets/alchemy-sulphuric.svg' width="125px")
-  h1
-    i.fas.fa-chess.fa-3x
-  h1 Addio Mondo Crudele 
-  h2 Muddy Waters, Muddy Boots
-  mdb-btn(color='primary') Print Me
+
+	.container-fluid
+
+		mdb-row
+			.col-sm.mt-5
+				h1
+					i.material-icons.md-72 toys
+				h3 Addio Mondo Crudele 	
+				h4 Muddy Waters, Muddy Boots
+				mdb-btn.mt-2(color='blue-grey') Print Me
+			
+			.col-sm.mt-5
+				h1
+					i.material-icons.md-72 toys
+				h3 Addio Mondo Crudele 
+				h4 Muddy Waters, Muddy Boots
+				mdb-btn.mt-2(color='mdb-color') Press Me
+				
+			.col-sm.mt-5
+				h1
+					i.material-icons.md-72 toys
+				h3 Addio Mondo Crudele 
+				h4 Muddy Waters, Muddy Boots
+				mdb-btn.mt-2(color='elegant') Hint Me
+
+	.container-fluid.mt-5
+
+			mdb-row
+				mdb-col.m-2(col="sm")
+					.card.text-left
+						img.card-img-top(src='../assets/titannic.jpg' alt='Great Ship Down')
+
+						.card-body
+
+							h5.card-title
+								a Engenho Novo Número Nove
+
+							p.card-text Μνεσαρcηθμ cοτιδιεqθε αδ μελ. Μεα νατθμ ινvιδθντ ατ. Ετ vιμ μελιθσ ελοqθεντιαμ. Τολλιτ σεντεντιαε ηισ νε, qθι ρεqθε διcαμ ταμqθαμ ιν, αφφερτ δισπθτανδο εθμ cθ.
+
+							a.btn.btn-grey(href='#') 
+							
+								i.material-icons.mr-2 rowing
+								| Choose
+
+				mdb-col.m-2(col="sm")
+
+					.card.text-left
+						img.card-img-top(src='../assets/titannic.jpg' alt='Great Ship Down')
+
+						.card-body
+
+							h.card-title
+								a Engenho Novo Número Nove
+
+							p.card-text Μνεσαρcηθμ cοτιδιεqθε αδ μελ. Μεα νατθμ ινvιδθντ ατ. Ετ vιμ μελιθσ ελοqθεντιαμ. Τολλιτ σεντεντιαε ηισ νε, qθι ρεqθε διcαμ ταμqθαμ ιν, αφφερτ δισπθτανδο εθμ cθ.
+
+							a.btn.btn-grey(href='#') 
+							
+								i.material-icons.mr-2 rowing
+								| Choose
+
+
+				mdb-col.m-2(col="sm")
+
+					.card.text-left
+						img.card-img-top(src='../assets/titannic.jpg' alt='Great Ship Down')
+
+						.card-body
+
+							h5.card-title
+								a Engenho Novo Número Nove
+
+							p.card-text Μνεσαρcηθμ cοτιδιεqθε αδ μελ. Μεα νατθμ ινvιδθντ ατ. Ετ vιμ μελιθσ ελοqθεντιαμ. Τολλιτ σεντεντιαε ηισ νε, qθι ρεqθε διcαμ ταμqθαμ ιν, αφφερτ δισπθτανδο εθμ cθ.
+
+							a.btn.btn-grey(href='#') 
+							
+								i.material-icons.mr-2 rowing
+								| Choose
+
+
 </template>
 
 <script>
@@ -13,9 +87,9 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
+	name: 'home',
+	components: {
+		HelloWorld
+	}
 }
 </script>
