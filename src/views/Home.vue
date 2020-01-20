@@ -1,7 +1,6 @@
 <template lang="pug">
-.home.text-center
-
-	.container-fluid
+.home.text-center.mb-5
+	.container-fluid(style="margin-top: 80px;")
 
 		mdb-row
 			.col-sm.mt-5
@@ -9,7 +8,7 @@
 					i.material-icons.md-72 toys
 				h3 Addio Mondo Crudele 	
 				h4 Muddy Waters, Muddy Boots
-				mdb-btn.mt-2(color='blue-grey') Print Me
+				mdb-btn.mt-2(href="/about" color='blue-grey') Print Me
 			
 			.col-sm.mt-5
 				h1
@@ -23,7 +22,7 @@
 					i.material-icons.md-72 toys
 				h3 Addio Mondo Crudele 
 				h4 Muddy Waters, Muddy Boots
-				mdb-btn.mt-2(color='elegant') Hint Me
+				mdb-btn.mt-2(color='elegant') Outguess Me
 
 	.container-fluid.mt-5
 
@@ -44,7 +43,7 @@
 								a.btn.btn-grey(href='#') 
 								
 									i.material-icons.mr-2 rowing
-									| Row Harder
+									| A Total Disaster
 
 				mdb-col.m-2(col="sm")
 
@@ -60,10 +59,10 @@
 
 							.text-center
 
-								a.btn.btn-grey(href='#') 
+								a.btn.btn-grey(href='/') 
 								
 									i.material-icons.mr-2 rowing
-									| Row Harder
+									| A Total Disaster
 
 
 				mdb-col.m-2(col="sm")
@@ -82,7 +81,7 @@
 								a.btn.btn-grey(href='#') 
 								
 									i.material-icons.mr-2 rowing
-									| Row Harder
+									| A Total Disaster
 
 </template>
 
