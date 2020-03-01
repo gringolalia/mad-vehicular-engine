@@ -22,4 +22,6 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f https://github.com/gringolalia/mad-vehicular-engine.git master:gh-pages
 
+# git push -f git@github.com:gringolalia/mad-vehicular-engine.git master:gh-pages
+
 cd -

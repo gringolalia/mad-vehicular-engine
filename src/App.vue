@@ -7,9 +7,9 @@
 			
 		mdb-navbar-toggler
 			mdb-navbar-nav
-				mdb-nav-item(href='/' active) Arma Virumque
-				mdb-nav-item(href='/about') In Media Res
-				mdb-nav-item(href='/about') Odi et Amo
+				mdb-nav-item(to='/' active) Arma Virumque
+				mdb-nav-item(to='/about') In Media Res
+				mdb-nav-item(to='/about') Odi et Amo
 
 			mdb-dropdown.nav-item(tag='li')
 				mdb-dropdown-toggle(tag='a' navlink color='stylish' slot='toggle' waves-fixed) Automóveis
